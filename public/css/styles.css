@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #adadad;
+  font-family: monospace;
+}
+
+body {
+  background: #212121;
+  /*background-image: url("../img/theatre.png");
+  background-size: cover;*/
+
+}
+
+
+.ground {
+  width: 90vw;
+  height: 200vh;
+  margin: 0 auto;
+}
+h1 {
+  text-align: center;
+}
+/*Row {
+  border: 1px solid #adadad;
+}*/
+
+.wraper {
+  width: 73vw;
+  float: right;
+}
+
+.movie-wraper {
+  list-style: none;
+  height: 25vh;
+  padding: 10px;
+}
+.poster {
+  text-align: center;
+  width: 15vw;
+  height: 20vh;
+  float: left;
+}
+
+.description {
+  width: 45vw;
+  height: 20vh;
+  float: left;
+  overflow: hidden;
+}
+
+img {
+  height: 100%;
+}
+
+img:hover {
+
+  height: 110%;
+  transition: ease 0.5s;
+}
+
+/*.app {
+  display: flex;
+}*/
+
+aside {
+  padding: 10px;
+  width: 15vw;
+  height: 100vh  ;
+  float: left;
+}
+
+aside a.active {
+    font-weight: bold;
+}
+
+
+.search-wrap {
+  width: 73vw;
+  float: right;
+  text-align: center;
+
+}
+
+.li-mvc {
+  list-style: none;
+}
+
+.home {
+  text-align: center;
+}
+/*main {
+  flex: 1;
+}*/
